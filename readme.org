@@ -1,0 +1,20 @@
+* 怎么安装emacs到我的电脑（windows）
+*** 1.需要下载的文件
+   我把安装emacs所需要的所有文件都存放在 [[https://github.com/Erwin-zhu/Roaming][Roaming/.emacs.d/DownloadedFile]] 下，emacs24 由于文件过大，可自行到[[http://gnu.mirrors.pair.com/gnu/emacs/][gnu-emacs官网下载]]。
+*** 2.怎么安装
+   用git或者是别的其他的方法，将下载下来的Roaming目录拷贝进C:\Users\***in\AppData(这个对应你自己相应目录)([[http://www.cnblogs.com/ini_always/archive/2012/04/27/2472857.html][windows系统中Emacs的HOME目录及配置文件的正确路径]])，覆盖掉Roaming这个文件夹即安装成功。
+
+* emacs FAQ
+** M-w无响应的原因
+   修改聊天软件QQ中的热键，这个与emacs中的冲突了。 [[http://www.cnblogs.com/qlwy/archive/2012/06/15/2551485.html][Emacs中复制问题和图片显示问题]]
+** emacs添加右键到菜单
+   呼出 regedit，在 HKEY_CLASSES_ROOT\* 下建立一个名为“Shell”的项，然后在 HKEY_CLASSES_ROOT\*\Shell 中建立一个名为“Emacs 编辑(&M)”的项，再在这个新建的项中建立一个名为“Command”的项，将其中的“(默认)”条目的值改为D:\lispbox-0.7\emacs-23.2\bin\runemacs.exe "%1"。
+(ps:[[http://www.douban.com/note/251180196/][emacs 添加到右键菜单方法出处]])
+** 查看用eclipse编辑的代码，缩进问题
+   添加下面一句话到.emacs中去
+#+BEGIN_SRC -n 
+   (setq-default tab-width 4)
+#+END_SRC
+,参考资料：[[http://blog.sina.com.cn/s/blog_725e679a0100pz3j.html][emacs 设置tab大小为4个空格 ]]. [[http://tieba.baidu.com/p/3409439491?pid=60270754887&cid=0#60270754887][到贴吧提问：浏览代码的时候缩进如何调节，内附详细说明，烦请帮忙]]
+** 将eclipse快捷方式添加到widows上去(热键)
+   右键桌面上Emacs的快捷方式，点击属性，就可以设置Emacs的热键了

@@ -1,0 +1,15 @@
+* 一个Emacser的日记
+
+** 一些资源网站
+*** Emacs学习资源
+	[[http://blog.csdn.net/CherylNatsu/article/details/6536959][Emacs常用命令快速参考]]
+	[[http://blog.csdn.net/zhuyingqingfen/article/details/8006675][Emacs 配置文件管理]] ps:避免.emacs配置配置文件臃肿，我仿照着这篇博文重新配置了.emacs，用.emacs加载分类的配置文件(模块化).
+	[[http://docs.huihoo.com/homepage/shredderyin/emacs.html][王垠的博客，Emacs部分]] ps:算是先驱吧，很经典，就是感觉有的东西有点older。
+*** Emacs的学习方法
+	[[http://blog.csdn.net/redguardtoo/article/details/7222501][一年成为Emacs高手(像神一样使用编辑器)]] ps:系统讲解Emacs学习过程，非常简要平时Emacs的用处,推荐了一些插件。（上面有YouTube上的使用视频)。
+*** 文件管理（dired):
+    [[http://www.cnblogs.com/leohxj/archive/2012/02/20/2360606.html][Emacs文件管理]]
+*** org-mode的学习
+	[[http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html][org-mode: 最好的文档编辑利器，没有之一]]
+	[[http://blog.csdn.net/dc_726/article/details/8623879][用Org-mode实践《奇特的一生》]] ps:org的使用方法，没有具体看，讲的具体用org来统计时间？，存着。
+	

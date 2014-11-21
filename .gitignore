@@ -50,3 +50,28 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# ignore all file except .emacs .emacs.d
+*
+!*.*
+!/.emacs.d/*
+!.*.*
+!readme.org
+!/.emacs.d/lisp/*
+
+# ignore in GitHub UI
+base64.cer
+fixcfg.ini
+RDUYC.DLL
+
+DDF6EWFX.DLL
+coreavc.ini
+DFEFQQ.DLL
+IUBGHY.DLL
+systeminfo.cfg
+network.da
+*.gitignore~
+*.dat
+*.emacs~
+.emacs.d/auto-save-list/.saves-3992-ERWIN-PC~
+#*#

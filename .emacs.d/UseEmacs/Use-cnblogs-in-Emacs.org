@@ -1,0 +1,30 @@
+#+TITLE: 用Emacs org写博文（cnblogs)
+
+* 1.说明：
+  一直想写博客，但是一般博客的编辑工具对于用户来说既要内容又要专注格式（怎么排版），就我个人而言，这样让我颇耗费Time，所以不怎么喜欢记录。而Emacs的org对于记录文档等等之类简直是神器，而Emacs让我最入迷之一的就是org，到现在为止不管写什么都是用*.org来写的，最爱~。
+  本文记录了我怎么用一个插件  [[https://github.com/huwenbiao/cnblogs][cnblogs(点击进入插件目录)]] 来发博客的，可以说是对原作者的说明文档的一点小小补充。
+  cnblogs出处作者：huwenbiao
+  Thanks.
+
+  本文保留所有权，仅作参考只用，转载请注明出处及原作者姓名（erwin），help you, help me.
+  本文如有侵权，请联系本人:erwin_zhu@163.com 
+* 2.使用cnblogs发博客 
+** 设置cnblogs账户
+  首先按照上面给的cnblogs地址安装好cnblogs插件，[[http://www.cnblogs.com/Open_Source/archive/2012/09/14/2684897.html][关于cnblogs的博文（应该是原作者的）]]。  这里要注意一下：在输入以下命令设置账户的时候，其中的username(第二个，非UserID)可以在图1地方找到
+#+BEGIN_SRC <elisp>
+  M-x cnblogs-setup-blog
+#+END_SRC
+** 验证成功后发博文
+   这里又要注意一下：你写好org的时候，在org下是不能直接发布的，要以如下方式
+#+BEGIN_SRC <elisp>
+   C-c C-e
+   h h
+#+END_SRC
+将org转换成html格式后，打开对应html文件，在输入
+#+BEGIN_SRC <elisp>
+   M-x cnblogs-import-file
+#+END_SRC
+导入对应的html文件提示成功后，就成功发布了博文，到博客园目录下刷新就有了。
+
+如有不明白的地方，可以留言。 help you, help me.
+  
