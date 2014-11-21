@@ -73,5 +73,5 @@ network.da
 *.gitignore~
 *.dat
 *.emacs~
-.emacs.d/auto-save-list/.saves-3992-ERWIN-PC~
+.emacs.d/auto-save-list/*
 #*#
