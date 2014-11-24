@@ -66,8 +66,8 @@
 ;;(color-theme-robin-hood)
 ;;(color-theme-calm-foriest)				
 ;;(color-theme-dark-laptop)
-;;(load-theme 'solarized-dark t)
-(load-theme 'solarized-light t)
+(load-theme 'solarized-dark t)
+;;(load-theme 'solarized-light t)
 
 ;;乱码问题
 (require 'unicad)

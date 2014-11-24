@@ -12,7 +12,7 @@
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 33)
+ (eval-buffer . 41)
  (cnblogs-setup-blog . 16)
  (backward-kill-word . 1)
  (customize-group . 2)

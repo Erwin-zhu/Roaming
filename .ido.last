@@ -22,8 +22,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "d:/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
+ "d:/Sunflower/Android/Workspace/SpyClientEngine/jni/"
+ "d:/"
  "c:/Users/erwin/AppData/Roaming/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/"
  "d:/Workspace/Template/"
@@ -40,6 +41,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "general.el"
+ "ATcpSession.cpp"
  "test.c"
  "myPlugin.el"
  ".emacs"
@@ -48,23 +51,23 @@
  "library.cpp"
  "iterator.cpp"
  "test.cpp"
- "Use-cnblogs-in-Emacs.html"
- "Use-cnblogs-in-Emacs.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21614 52117 0 0) "UseEmacs/" "snippets/" "smex-items" "lisp/" "glo632wb/" "extra-bin/" "elpa/" "ede-projects.el" "DownloadedFile/" "auto-save-list/" "../" "./")
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21618 48406 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
 
- ("c:/Users/erwin/AppData/Roaming/" (21614 52674 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
+ ("c:/Users/erwin/AppData/Roaming/" (21618 41937 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/" (21614 54606 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/" (21618 35704 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21614 58126 0 0) "UseEmacs/" "snippets/" "smex-items" "lisp/" "glo632wb/" "extra-bin/" "elpa/" "Downloaded/" "auto-save-list/" "../" "./")
+
+ ("d:/Sunflower/Android/Workspace/SpyClientEngine/jni/" (21618 36090 0 0) "TcpClient.h" "TcpClient.cpp" "tags" "SpyClientEngine.h" "SpyClientEngine.cpp" "readme" "ATcpSession.h" "ATcpSession.cpp" "ATcpClient.h" "ATcpClient.cpp" "Application.mk" "Android.mk" "AMisc.h" "AMisc.cpp" "AGlobalLocker.h" "AGlobalLocker.cpp" "ACSunflowerSpyView.h" "ACSunflowerSpyView.cpp" "../" "./")
 
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/DownloadedFile/emacs.d-master/lisp/" (21614 52953 0 0) "init-zencoding-mode.el" "init-yasnippet.el" "init-xterm.el" "init-writting.el" "init-workgroups2.el" "init-windows.el" "init-which-func.el" "init-web-mode.el" "init-utils.el" "init-uniquify.el" "init-textile.el" "init-term-mode.el" "init-stripe-buffer.el" "init-sr-speedbar.el" "init-spelling.el" "init-smex.el" "init-slime.el" "init-site-lisp.el" "init-sh.el" "init-sessions.el" "init-semantic.el" "init-ruby-mode.el" "init-recentf.el" "init-python-mode.el" "init-proxies.el" "init-pomodoro.el" "init-osx-keys.el" "init-org.el" "init-org-mime.el" "init-moz.el" "init-move-window-buffer.el" "init-modeline.el" "init-misc.el" "init-maxframe.el" "init-markdown.el" "init-lua-mode.el" "init-lisp.el" "init-linum-mode.el" "init-keyfreq.el" "init-javascript.el" "init-isearch.el" "init-ido.el" "init-ibuffer.el" "init-hs-minor-mode.el" "init-hippie-expand.el" "init-helm.el" "init-haskell.el" "init-gui-frames.el" "init-gud.el" "init-gtags.el" "init-gnus.el" "init-git.el" "init-frame-hooks.el" "init-fonts.el" "init-flymake.el" "init-exec-path.el" "init-evil.el" "init-erlang.el" "init-emacspeak.el" "init-emacs-w3m.el" "init-elpa.el" "init-elnode.el" "init-elisp.el" "init-eim.el" "init-doxygen.el" "init-dired.el" "init-ctags.el" "init-csv.el" "init-css.el" "init-csharp-mode.el" "init-crontab.el" "init-cperl-mode.el" "init-compat.el" "init-company.el" "init-cmake-mode.el" "init-cc-mode.el" "init-bbdb.el" "init-artbollocks-mode.el" "init-ace-jump-mode.el" "cl-lib.el" "../" "./")
-
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21614 51929 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/" (21614 45360 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/" (21614 45404 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
 
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 37149 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
 
@@ -105,8 +108,6 @@
  ("c:/Users/erwin/" (21609 22355 0 0) "_viminfo.tmp" "_viminfo" "workspace/" "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vim/" ".ssh/" ".neocomplcache/" ".gitconfig" ".android/" "$HOME/" "../" "./")
 
  ("c:/emacs-24.4/bin/" (21609 27472 0 0) "runemacs.exe" "libXpm.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.4.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
-
- ("d:/Sunflower/Android/Workspace/SpyClientEngine/jni/" (21605 42132 0 0) "TcpClient.h" "TcpClient.cpp" "tags" "SpyClientEngine.h" "SpyClientEngine.cpp" "readme" "ATcpSession.h" "ATcpSession.cpp" "ATcpClient.h" "ATcpClient.cpp" "Application.mk" "Android.mk" "AMisc.h" "AMisc.cpp" "AGlobalLocker.h" "AGlobalLocker.cpp" "ACSunflowerSpyView.h" "ACSunflowerSpyView.cpp" "#ATcpSession.cpp#" "../" "./")
 
  ("c:/Users/erwin/Documents/GitHub/Sunflower/" (21584 23525 0 0) "src/" "res/" "project.properties" "proguard-project.txt" "libs/" "ic_launcher-web.png" "gen/" "bin/" "assets/" "AndroidManifest.xml" ".settings/" ".project" ".gitignore" ".gitattributes" ".git/" ".classpath" "../" "./")
 

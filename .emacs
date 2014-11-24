@@ -5,3 +5,5 @@
 (require 'general)
 ;;¼ÓÔØ²å¼şÉèÖÃ
 (require 'myPlugin)
+
+(require 'programing)
