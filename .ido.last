@@ -22,9 +22,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "d:/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
  "d:/Sunflower/Android/Workspace/SpyClientEngine/jni/"
- "d:/"
  "c:/Users/erwin/AppData/Roaming/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/"
  "d:/Workspace/Template/"
@@ -41,6 +41,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "test.java"
  "general.el"
  "ATcpSession.cpp"
  "test.c"
@@ -50,11 +51,12 @@
  "TemplateTest.cpp"
  "library.cpp"
  "iterator.cpp"
- "test.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/" (21518 30722 0 0) "Public/" "erwin/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
+
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21618 48406 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
 
  ("c:/Users/erwin/AppData/Roaming/" (21618 41937 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
