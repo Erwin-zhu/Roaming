@@ -38,7 +38,7 @@
 (set-frame-position (selected-frame) 225 0)
 ;;窗口大小
 (set-frame-width (selected-frame) 80)
-(set-frame-height (selected-frame) 35)
+(set-frame-height (selected-frame) 29)
 
 ;;关闭启动画面
 (setq inhibit-startup-message t)

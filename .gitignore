@@ -55,7 +55,7 @@ $RECYCLE.BIN/
 *
 !*.*
 !/.emacs.d/*
-!.*.*
+#!.*.*
 !readme.org
 !/.emacs.d/lisp/*
 
@@ -74,4 +74,5 @@ network.da
 *.dat
 *.emacs~
 .emacs.d/auto-save-list/*
+!/.emacs.d/Downloaded/Fonts/*
 #*#

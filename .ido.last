@@ -15,13 +15,15 @@
  ("c:/Users/Erwin/AppData/" . "Roaming/")
  ("c:/Users/Erwin/Documents/GitHub/" . "HomeWork/")
  ("c:/Users/Erwin/" . "Documents/")
- ("c:/Users/Erwin/AppData/Roaming/.emacs.d/" . "UseEmacs/")
+ ("c:/Users/Erwin/AppData/Roaming/.emacs.d/" . "lisp/")
  ("c:/Users/Erwin/AppData/Roaming/" . ".emacs.d/")
  ("d:/" . "Workspace/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "c:/Users/Erwin/AppData/Roaming/"
+ "c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/"
  "d:/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
  "d:/Sunflower/Android/Workspace/SpyClientEngine/jni/"
@@ -30,8 +32,6 @@
  "d:/Workspace/Template/"
  "d:/Workspace/c++Test/"
  "c:/Users/Erwin/AppData/Roaming/.emacs.d/UseEmacs/"
- "c:/Users/Erwin/AppData/Roaming/"
- "c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/UseEmacs/"
  "d:/Work/RecordProjectExperience/"
  "c:/Users/erwin/Documents/GouKuaiYun/Work/RecordProjectExperience/"
@@ -41,8 +41,9 @@
 
 ;; ----- ido-work-file-list -----
 (
- "test.java"
+ ".gitignore"
  "general.el"
+ "test.java"
  "ATcpSession.cpp"
  "test.c"
  "myPlugin.el"
@@ -50,38 +51,37 @@
  "ede-projects.el"
  "TemplateTest.cpp"
  "library.cpp"
- "iterator.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/Erwin/AppData/Roaming/" (21620 34562 0 0) "YunKu/" "Xiaomi/" "xfplayer/" "work/" "WinRAR/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "VanDyke/" "uTorrent/" "UltraISO/" "tweakcube3/" "Tencent/" "Teiron/" "TaobaoProtect/" "systeminfo.cfg" "shoujizhushou/" "Scooter Software/" "Red Alert 3/" "readme.txt" "readme.org" "qmacro/" "PYY/" "PwrMgr/" "PushApp/" "PPStream/" "PPLive/" "PotPlayerMini/" "Postman/" "pcmaster/" "PCDr/" "NVIDIA/" "network.dat" "Mozilla/" "Motorola Mobility/" "Motorola/" "Microsoft Games/" "Microsoft/" "Media Center Programs/" "Maxthon3/" "MathWorks/" "Macromedia/" "LolClient/" "lolbox_yygame/" "Leadertech/" "kuaiyong/" "ksoftmgr/" "kingsoft/" "kcleaner/" "JisuPDF/" "JetBrains/" "IUBGHY.DLL" "IrfanView/" "Intel Corporation/" "InstallShield/" "ihelper2014/" "ihelper/" "Identities/" "HD Tune Pro/" "Gokuai Technology/" "GitHub/" "Foxit Software/" "flvcd/" "fixcfg.ini" "Expert/" "duowan/" "DrvMgr/" "DriverCDForWeb/" "dg/" "DFEFQQ.DLL" "Dev-Cpp/" "DDF6EWFX.DLL" "coreavc.ini" "BitComet/" "bbt-client/" "base64.cer" "BaiduYunGuanjia/" "Baidu/" "Apple Computer/" "Altium/" "alipay/" "ahelper/" "Adobe/" "360WD/" "360SuperKiller/" "360Safe/" "360Quarant/" "360Login/" "360DnsOpt/" "360DiagnoseScan/" "360Desktop/" "360CloudUI/" "2345Pic/" "1408002700E848" "1008002700F007" "030021CCC30948" "0174E543576BBB" "004D5649544E41696E66" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs~" ".emacs.desktop" ".emacs.d/" ".emacs" ".#.gitignore" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 60542 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 60542 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21620 32164 0 0) "UseEmacs/" "smex-items" "lisp/" "extra-bin/" "eshell/" "elpa/" "DownloadedFile/" "Downloaded/" "auto-save-list/" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/" (21620 33054 0 0) "YunKu/" "Xiaomi/" "xfplayer/" "work/" "WinRAR/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "VanDyke/" "uTorrent/" "UltraISO/" "tweakcube3/" "Tencent/" "Teiron/" "TaobaoProtect/" "systeminfo.cfg" "shoujizhushou/" "Scooter Software/" "Red Alert 3/" "readme.txt" "readme.org" "qmacro/" "PYY/" "PwrMgr/" "PushApp/" "PPStream/" "PPLive/" "PotPlayerMini/" "Postman/" "pcmaster/" "PCDr/" "NVIDIA/" "network.dat" "Mozilla/" "Motorola Mobility/" "Motorola/" "Microsoft Games/" "Microsoft/" "Media Center Programs/" "Maxthon3/" "MathWorks/" "Macromedia/" "LolClient/" "lolbox_yygame/" "Leadertech/" "kuaiyong/" "ksoftmgr/" "kingsoft/" "kcleaner/" "JisuPDF/" "JetBrains/" "IUBGHY.DLL" "IrfanView/" "Intel Corporation/" "InstallShield/" "ihelper2014/" "ihelper/" "Identities/" "HD Tune Pro/" "Gokuai Technology/" "GitHub/" "Foxit Software/" "flvcd/" "fixcfg.ini" "Expert/" "duowan/" "DrvMgr/" "DriverCDForWeb/" "dg/" "DFEFQQ.DLL" "Dev-Cpp/" "DDF6EWFX.DLL" "coreavc.ini" "BitComet/" "bbt-client/" "base64.cer" "BaiduYunGuanjia/" "Baidu/" "Apple Computer/" "Altium/" "alipay/" "ahelper/" "Adobe/" "360WD/" "360SuperKiller/" "360Safe/" "360Quarant/" "360Login/" "360DnsOpt/" "360DiagnoseScan/" "360Desktop/" "360CloudUI/" "2345Pic/" "1408002700E848" "1008002700F007" "030021CCC30948" "0174E543576BBB" "004D5649544E41696E66" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs~" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21620 33038 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "programing.el" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/" (21620 33038 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "programing.el" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/.emacs.d/" (21620 32164 0 0) "UseEmacs/" "smex-items" "lisp/" "extra-bin/" "eshell/" "elpa/" "DownloadedFile/" "Downloaded/" "auto-save-list/" "../" "./")
+
  ("c:/Users/" (21518 30722 0 0) "Public/" "erwin/" "desktop.ini" "Default User/" "Default/" "All Users/" "../" "./")
-
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21618 48406 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
-
- ("c:/Users/erwin/AppData/Roaming/" (21618 41937 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/" (21614 54606 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/" (21618 35704 0 0) "YunKu/" "WandoujiaUsbDriver/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs.bak" ".emacs" "../" "./")
-
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21614 58126 0 0) "UseEmacs/" "snippets/" "smex-items" "lisp/" "glo632wb/" "extra-bin/" "elpa/" "Downloaded/" "auto-save-list/" "../" "./")
 
  ("d:/Sunflower/Android/Workspace/SpyClientEngine/jni/" (21618 36090 0 0) "TcpClient.h" "TcpClient.cpp" "tags" "SpyClientEngine.h" "SpyClientEngine.cpp" "readme" "ATcpSession.h" "ATcpSession.cpp" "ATcpClient.h" "ATcpClient.cpp" "Application.mk" "Android.mk" "AMisc.h" "AMisc.cpp" "AGlobalLocker.h" "AGlobalLocker.cpp" "ACSunflowerSpyView.h" "ACSunflowerSpyView.cpp" "../" "./")
 
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/DownloadedFile/emacs.d-master/lisp/" (21614 52953 0 0) "init-zencoding-mode.el" "init-yasnippet.el" "init-xterm.el" "init-writting.el" "init-workgroups2.el" "init-windows.el" "init-which-func.el" "init-web-mode.el" "init-utils.el" "init-uniquify.el" "init-textile.el" "init-term-mode.el" "init-stripe-buffer.el" "init-sr-speedbar.el" "init-spelling.el" "init-smex.el" "init-slime.el" "init-site-lisp.el" "init-sh.el" "init-sessions.el" "init-semantic.el" "init-ruby-mode.el" "init-recentf.el" "init-python-mode.el" "init-proxies.el" "init-pomodoro.el" "init-osx-keys.el" "init-org.el" "init-org-mime.el" "init-moz.el" "init-move-window-buffer.el" "init-modeline.el" "init-misc.el" "init-maxframe.el" "init-markdown.el" "init-lua-mode.el" "init-lisp.el" "init-linum-mode.el" "init-keyfreq.el" "init-javascript.el" "init-isearch.el" "init-ido.el" "init-ibuffer.el" "init-hs-minor-mode.el" "init-hippie-expand.el" "init-helm.el" "init-haskell.el" "init-gui-frames.el" "init-gud.el" "init-gtags.el" "init-gnus.el" "init-git.el" "init-frame-hooks.el" "init-fonts.el" "init-flymake.el" "init-exec-path.el" "init-evil.el" "init-erlang.el" "init-emacspeak.el" "init-emacs-w3m.el" "init-elpa.el" "init-elnode.el" "init-elisp.el" "init-eim.el" "init-doxygen.el" "init-dired.el" "init-ctags.el" "init-csv.el" "init-css.el" "init-csharp-mode.el" "init-crontab.el" "init-cperl-mode.el" "init-compat.el" "init-company.el" "init-cmake-mode.el" "init-cc-mode.el" "init-bbdb.el" "init-artbollocks-mode.el" "init-ace-jump-mode.el" "cl-lib.el" "../" "./")
-
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 37149 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 37149 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
 
  ("d:/Workspace/Template/" (21614 39216 0 0) "TT.exe" "TemplateTest.cpp" "#TemplateTest.cpp#" "../" "./")
 
  ("d:/Workspace/c++Test/" (21614 38808 0 0) "vector.exe" "vector.cpp" "string.exe" "string.cpp" "Makefile" "library.exe" "library.cpp" "iterator.cpp" "#library.cpp#" "../" "./")
 
  ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/cnblogs-master/" (20739 5604 0 0) "xml-rpc.el" "README.md" "metaweblog.el" "cnblogs.el" ".gitignore" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/.emacs.d/" (21613 53126 0 0) "UseEmacs/" "smex-items" "lisp/" "eshell/" "elpa/" "ede-projects.el" "DownloadedFile/" "auto-save-list/" "../" "./")
 
  ("d:/Workspace/" (21592 35595 0 0) "Template/" "SunflowerTestServer_sendPicture/" "pthread_cond/" "example/" "c++Test/" ".metadata/" ".gitignore" ".gitattributes" ".git/" "../" "./")
 
