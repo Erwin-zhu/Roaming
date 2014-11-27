@@ -76,3 +76,7 @@ network.da
 .emacs.d/auto-save-list/*
 !/.emacs.d/Downloaded/Fonts/*
 #*#
+*.last
+*.last
+*.last
+.ido.last

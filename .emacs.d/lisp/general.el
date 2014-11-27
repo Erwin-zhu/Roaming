@@ -9,7 +9,7 @@
 (global-linum-mode 1)
 ;;设定自动缩进的注视风格
 (setq-default comment-style 'indent)
-(setq auto-revert-mode 1)               ;自动更新buffer
+(global-auto-revert-mode 1)               ;自动更新buffer
 
 ;;置org-mode自动换行
 (add-hook 'org-mode-hook (lambda()(setq truncate-lines nil)))
