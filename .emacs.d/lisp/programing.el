@@ -25,5 +25,6 @@
 (setq c-basic-offset 4)
 (setq c-default-style "linux")
 (c-set-offset 'inline-open())                   ;;写java时，函数完成后ret后，默认不缩进
+(c-set-offset 'case-label() 1)                  ;; switch case 缩进方式
 
 (provide 'programing)

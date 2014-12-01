@@ -24,12 +24,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "d:/Android/android-ndk-r10b/sources/ffmpeg-2.4.3/"
+ "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
  "c:/Users/erwin/Documents/GitHub/Note/"
+ "d:/Android/android-ndk-r10b/sources/ffmpeg-2.4.3/"
  "c:/Users/Erwin/AppData/Roaming/"
  "c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/"
  "d:/"
- "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
  "d:/Sunflower/Android/Workspace/SpyClientEngine/jni/"
  "c:/Users/erwin/AppData/Roaming/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/"
@@ -45,6 +45,9 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "programing.el"
+ "Use-cnblogs-in-Emacs.org"
+ "UseEmacs.org"
  "build_android.sh"
  "readme.MD"
  ".gitignore"
@@ -52,30 +55,27 @@
  "test.java"
  "ATcpSession.cpp"
  "test.c"
- "myPlugin.el"
- ".emacs"
- "ede-projects.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/erwin/" (21624 16655 0 0) "_viminfo.tmp" "_viminfo" "workspace/" "Videos/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "log.txt" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vim/" ".ssh/" ".neocomplcache/" ".gitconfig" ".android/" "$HOME/" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/" (21627 65452 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/" (21627 65452 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/erwin/Documents/GitHub/Note/" (21627 53695 0 0) "UseEmacs.org" "Use-cnblogs-in-Emacs.org" "TheProblemUseEclipse.org" "README.md" ".gitattributes" ".git/" "../" "./")
+
+ ("d:/Android/android-ndk-r10b/sources/ffmpeg-2.4.3/" (21624 16655 0 0) "version.sh" "VERSION" "tools/" "tests/" "RELEASE_NOTES" "RELEASE" "README.md" "presets/" "Makefile" "MAINTAINERS" "LICENSE.md" "libswscale/" "libswresample/" "library.mak" "libpostproc/" "libavutil/" "libavresample/" "libavformat/" "libavfilter/" "libavdevice/" "libavcodec/" "INSTALL.md" "ffserver.c" "ffprobe.c" "ffplay.c" "ffmpeg_vdpau.c" "ffmpeg_vda.c" "ffmpeg_opt.c" "ffmpeg_filter.c" "ffmpeg_dxva2.c" "ffmpeg.h" "ffmpeg.c" "doc/" "CREDITS" "COPYING.LGPLv3" "COPYING.LGPLv2.1" "COPYING.GPLv3" "COPYING.GPLv2" "configure" "compat/" "common.mak" "cmdutils_opencl.c" "cmdutils_common_opts.h" "cmdutils.h" "cmdutils.c" "Changelog" "build_android.sh" "arch.mak" "../" "./")
+
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21624 9384 0 0) "snippets/" "smex-items" "lisp/" "glo632wb/" "extra-bin/" "elpa/" "Downloaded/" "auto-save-list/" "../" "./")
 
- ("c:/Users/erwin/AppData/Roaming/" (21624 11838 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
-
  ("d:/Sunflower/Android/Workspace/SpyClientEngine/jni/" (21624 12268 0 0) "TcpClient.h" "TcpClient.cpp" "SpyData.h" "SpyClientEngine.h" "SpyClientEngine.cpp" "readme" "ATcpSession.h" "ATcpSession.cpp" "ATcpClient.h" "ATcpClient.cpp" "Application.mk" "AOSDependentLayer_Android.h" "Android.mk" "AMisc.h" "AMisc.cpp" "AGlobalLocker.h" "AGlobalLocker.cpp" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/" (21624 11838 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
-
- ("c:/Users/erwin/Documents/GitHub/Note/" (21624 11810 0 0) "UseEmacs.org" "Use-cnblogs-in-Emacs.org" "TheProblemUseEclipse.org" "README.md" ".gitattributes" ".git/" "../" "./")
-
- ("d:/Android/android-ndk-r10b/sources/ffmpeg-2.4.3/" (21624 15594 0 0) "version.sh" "VERSION" "tools/" "tests/" "RELEASE_NOTES" "RELEASE" "README.md" "presets/" "Makefile" "MAINTAINERS" "LICENSE.md" "libswscale/" "libswresample/" "library.mak" "libpostproc/" "libavutil/" "libavresample/" "libavformat/" "libavfilter/" "libavdevice/" "libavcodec/" "INSTALL.md" "ffserver.c" "ffprobe.c" "ffplay.c" "ffmpeg_vdpau.c" "ffmpeg_vda.c" "ffmpeg_opt.c" "ffmpeg_filter.c" "ffmpeg_dxva2.c" "ffmpeg.h" "ffmpeg.c" "doc/" "CREDITS" "COPYING.LGPLv3" "COPYING.LGPLv2.1" "COPYING.GPLv3" "COPYING.GPLv2" "configure" "compat/" "common.mak" "cmdutils_opencl.c" "cmdutils_common_opts.h" "cmdutils.h" "cmdutils.c" "Changelog" "arch.mak" "../" "./")
 
  ("c:/Users/erwin/Documents/GitHub/" (21624 6488 0 0) "Sunflower/" "SmallEye/" "PreferenceFragement/" "Note/" "AndroidTest/" "AndroidExample/" "---/" "../" "./")
 
  ("c:/Users/erwin/Documents/" (21612 26022 0 0) "够快云库/" "Visual Studio 2013/" "Tencent Files/" "My Videos/" "My Pictures/" "My Music/" "Kinect Studio/" "Graphics/" "GouKuaiYun/" "GitHub/" "desktop.ini" "Default.rdp" "1Password/" "../" "./")
-
- ("c:/Users/erwin/" (21623 63505 0 0) "_viminfo.tmp" "_viminfo" "workspace/" "Videos/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "log.txt" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vim/" ".ssh/" ".neocomplcache/" ".gitconfig" ".android/" "$HOME/" "../" "./")
 
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 37149 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
 
