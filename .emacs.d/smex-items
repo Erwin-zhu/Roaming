@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ cua-mode
  eval-buffer
+ calendar-set-date-style
  customize-variable
+ calendar-set-mark
+ calendar
  company-mode
- cnblogs-edit-post
- cnblogs-new-post
- cnblogs-delete-post
- cnblogs-import-file
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 41)
+ (eval-buffer . 48)
  (cnblogs-setup-blog . 16)
  (backward-kill-word . 1)
  (customize-group . 2)
@@ -23,5 +23,9 @@
  (cnblogs-new-post . 11)
  (cnblogs-delete-post . 2)
  (cnblogs-edit-post . 7)
- (customize-variable . 2)
+ (customize-variable . 3)
+ (calendar . 2)
+ (calendar-set-mark . 1)
+ (calendar-set-date-style . 2)
+ (cua-mode . 6)
 )

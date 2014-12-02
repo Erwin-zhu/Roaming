@@ -2,6 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("d:/Clover/Android/" . "Workspace/")
+ ("d:/Clover/" . "Android/")
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/com/example/" . "preferencefragement/")
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/com/" . "example/")
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/" . "com/")
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/" . "src/")
  ("c:/Users/" . "erwin/")
  ("c:/" . "Users/")
  ("d:/Workspace/" . "Template/")
@@ -19,19 +25,22 @@
  ("c:/Users/Erwin/" . "Documents/")
  ("c:/Users/Erwin/AppData/Roaming/.emacs.d/" . "lisp/")
  ("c:/Users/Erwin/AppData/Roaming/" . ".emacs.d/")
- ("d:/" . "Workspace/")
+ ("d:/" . "Clover/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
  "c:/Users/erwin/Documents/GitHub/Note/"
+ "d:/Clover/Android/Workspace/"
+ "c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/"
+ "c:/Users/erwin/AppData/Roaming/"
+ "c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/com/example/preferencefragement/"
+ "d:/Sunflower/Android/Workspace/SpyClientEngine/src/com/Klouds3D/SpyClientEngine/"
  "d:/Android/android-ndk-r10b/sources/ffmpeg-2.4.3/"
  "c:/Users/Erwin/AppData/Roaming/"
  "c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/"
  "d:/"
  "d:/Sunflower/Android/Workspace/SpyClientEngine/jni/"
- "c:/Users/erwin/AppData/Roaming/"
  "c:/Users/erwin/AppData/Roaming/.emacs.d/"
  "d:/Workspace/Template/"
  "d:/Workspace/c++Test/"
@@ -45,45 +54,65 @@
 
 ;; ----- ido-work-file-list -----
 (
- "programing.el"
- "Use-cnblogs-in-Emacs.org"
+ "TheProblemUseEclipse.org"
+ "README.md"
  "UseEmacs.org"
+ "programing.el"
+ "myPlugin.el"
+ ".emacs"
+ "MainActivity.java"
+ "FragmentPreferences.java"
+ "PreferencesActivity.java"
  "build_android.sh"
- "readme.MD"
- ".gitignore"
- "general.el"
- "test.java"
- "ATcpSession.cpp"
- "test.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/erwin/" (21624 16655 0 0) "_viminfo.tmp" "_viminfo" "workspace/" "Videos/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "log.txt" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vim/" ".ssh/" ".neocomplcache/" ".gitconfig" ".android/" "$HOME/" "../" "./")
+ ("c:/Users/erwin/Documents/GitHub/Note/" (21629 35131 0 0) "UseEmacs.org" "Use-cnblogs-in-Emacs.org" "TheProblemUseEclipse.txt" "TheProblemUseEclipse.org" "README.md" ".gitattributes" ".git/" "../" "./")
 
- ("c:/Users/erwin/AppData/Roaming/" (21627 65452 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
+ ("c:/Users/erwin/Documents/" (21629 28000 0 0) "Visual Studio 2013/" "Tencent Files/" "RecordProjectExperience/" "My Videos/" "My Pictures/" "My Music/" "Kinect Studio/" "Graphics/" "GouKuaiYun/" "GitHub/" "desktop.ini" "Default.rdp" "1Password/" "../" "./")
 
- ("c:/Users/Erwin/AppData/Roaming/" (21627 65452 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
+ ("c:/Users/erwin/" (21629 31019 0 0) "_viminfo.tmp" "_viminfo" "workspace/" "Videos/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "log.txt" "Local Settings/" "Links/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".vim/" ".ssh/" ".neocomplcache/" ".gitconfig" ".android/" "$HOME/" "../" "./")
 
- ("c:/Users/erwin/Documents/GitHub/Note/" (21627 53695 0 0) "UseEmacs.org" "Use-cnblogs-in-Emacs.org" "TheProblemUseEclipse.org" "README.md" ".gitattributes" ".git/" "../" "./")
+ ("d:/Clover/Android/" (21629 4794 0 0) "Workspace/" "../" "./")
+
+ ("d:/Clover/" (21629 5799 0 0) "zip/" "XML/" "Test/" "SunflowerSpy/" "SunflowerServer/" "SDK/" "readme.txt" "Lib/" "Inc/" "Drv/" "Docs/" "Clover_Distribution.docx" "CloverSpy/" "CloverServer/" "CloverPlayer/" "Android/" ".svn/" "../" "./")
+
+ ("d:/Client/" (21593 40286 0 0) "Client/" "../" "./")
+
+ ("d:/Clover/Android/Workspace/" (21629 27012 0 0) "Windows端SunflowerServer和SunflowerSpy编译步骤.txt" "SpyClientEngine/" "ServerTest/" "README.md" "ProblemRecord.org" "Inc/" ".metadata/" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21629 19572 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "programing.el" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21629 21223 0 0) "snippets/" "smex-items" "lisp/" "glo632wb/" "extra-bin/" "elpa/" "Downloaded/" "auto-save-list/" "../" "./")
+
+ ("c:/Users/erwin/AppData/Roaming/" (21629 21223 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "HaoZip/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/com/example/preferencefragement/" (21628 8363 0 0) "MainActivity.java" "FragmentPreferences.java" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/" (21628 764 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "programing.el" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
+
+ ("c:/Users/Erwin/AppData/Roaming/" (21628 8271 0 0) "YunKu/" "Xiaomi/" "WandoujiaUsbDriver/" "Wandoujia2/" "VMware/" "TortoiseSVN/" "Tencent/" "TaobaoProtect/" "Subversion/" "shoujizhushou/" "Scooter Software/" "readme.txt" "readme.org" "RDUYC.DLL" "NVIDIA/" "NuGet/" "Mozilla/" "Microsoft FxCop/" "Microsoft/" "Maxthon3/" "Macromedia/" "kingsoft/" "Gokuai Technology/" "GitHub/" "fixcfg.ini" "dg/" "base64.cer" "baiduyun/" "baiduwangpan/" "baidu/" "Adobe/" "360zip/" "2345Pic/" ".ido.last" ".gitignore" ".gitattributes" ".git/" ".emacs.desktop" ".emacs.d/" ".emacs" "../" "./")
 
  ("d:/Android/android-ndk-r10b/sources/ffmpeg-2.4.3/" (21624 16655 0 0) "version.sh" "VERSION" "tools/" "tests/" "RELEASE_NOTES" "RELEASE" "README.md" "presets/" "Makefile" "MAINTAINERS" "LICENSE.md" "libswscale/" "libswresample/" "library.mak" "libpostproc/" "libavutil/" "libavresample/" "libavformat/" "libavfilter/" "libavdevice/" "libavcodec/" "INSTALL.md" "ffserver.c" "ffprobe.c" "ffplay.c" "ffmpeg_vdpau.c" "ffmpeg_vda.c" "ffmpeg_opt.c" "ffmpeg_filter.c" "ffmpeg_dxva2.c" "ffmpeg.h" "ffmpeg.c" "doc/" "CREDITS" "COPYING.LGPLv3" "COPYING.LGPLv2.1" "COPYING.GPLv3" "COPYING.GPLv2" "configure" "compat/" "common.mak" "cmdutils_opencl.c" "cmdutils_common_opts.h" "cmdutils.h" "cmdutils.c" "Changelog" "build_android.sh" "arch.mak" "../" "./")
 
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/" (21624 9384 0 0) "snippets/" "smex-items" "lisp/" "glo632wb/" "extra-bin/" "elpa/" "Downloaded/" "auto-save-list/" "../" "./")
+ ("d:/Sunflower/Android/Workspace/SpyClientEngine/src/com/Klouds3D/SpyClientEngine/" (21628 8274 0 0) "SettingActivity.java" "MainActivity.java" "HomeImageAdapter.java" "HomeActivity.java" "DecodeImage.java" "BitmapWorkerTask.java" "../" "./")
+
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/com/example/" (21581 56983 0 0) "preferencefragement/" "../" "./")
+
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/com/" (21581 56983 0 0) "example/" "../" "./")
+
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/src/" (21581 56983 0 0) "com/" "../" "./")
+
+ ("c:/Users/erwin/Documents/GitHub/PreferenceFragement/" (21581 56983 0 0) "src/" "res/" "project.properties" "proguard-project.txt" "libs/" "ic_launcher-web.png" "gen/" "bin/" "assets/" "AndroidManifest.xml" ".settings/" ".project" ".classpath" "../" "./")
 
  ("d:/Sunflower/Android/Workspace/SpyClientEngine/jni/" (21624 12268 0 0) "TcpClient.h" "TcpClient.cpp" "SpyData.h" "SpyClientEngine.h" "SpyClientEngine.cpp" "readme" "ATcpSession.h" "ATcpSession.cpp" "ATcpClient.h" "ATcpClient.cpp" "Application.mk" "AOSDependentLayer_Android.h" "Android.mk" "AMisc.h" "AMisc.cpp" "AGlobalLocker.h" "AGlobalLocker.cpp" "../" "./")
 
  ("c:/Users/erwin/Documents/GitHub/" (21624 6488 0 0) "Sunflower/" "SmallEye/" "PreferenceFragement/" "Note/" "AndroidTest/" "AndroidExample/" "---/" "../" "./")
 
- ("c:/Users/erwin/Documents/" (21612 26022 0 0) "够快云库/" "Visual Studio 2013/" "Tencent Files/" "My Videos/" "My Pictures/" "My Music/" "Kinect Studio/" "Graphics/" "GouKuaiYun/" "GitHub/" "desktop.ini" "Default.rdp" "1Password/" "../" "./")
-
  ("c:/Users/erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 37149 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
 
  ("c:/Users/Erwin/AppData/Roaming/.emacs.d/UseEmacs/" (21614 37149 0 0) "UseEmacs.org" "UseEmacs.html" "Use-cnblogs-in-Emacs.org" "Use-cnblogs-in-Emacs.html" "../" "./")
-
- ("c:/Users/erwin/AppData/Roaming/.emacs.d/lisp/" (21622 59667 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "programing.el" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
-
- ("c:/Users/Erwin/AppData/Roaming/.emacs.d/lisp/" (21622 59667 0 0) "yasnippet-master/" "window-numbering.el-master/" "unicad.el" "themes/" "tabbar.el" "smex.el" "smartparens-master/" "programing.el" "myPlugin.el" "markdown-mode.el" "general.el" "dropdown-list.el" "dash.el-master/" "color-theme.el" "cnblogs-master/" "autopair-master/" "../" "./")
 
  ("c:/emacs-24.4/" (21609 27484 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
 
